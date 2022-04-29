@@ -1,0 +1,158 @@
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: white !important;
+}
+.navbar-brand img
+{
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 200px;
+   
+}
+
+
+.nav-link{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    color: #5A86C9 !important;;
+
+  }
+
+  
+.navbar-nav li {
+    float: right !important;
+    text-align: left !important;
+    padding-right: 70px;
+}
+
+.hero_section{
+
+    margin-top: 32px !important;
+}
+
+.col-md-6 h2{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+    color: #5A86C9;
+}
+
+.col-md-6 p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 40px;
+}
+
+#hero_message{
+    top: 50px !important;
+}
+
+
+/********************What MAC Education program does************/
+
+.mac_content{
+
+    margin-top: 32px !important;
+}
+.mac_program{
+    background: #5A86C9;
+    height: 250px; margin-top: 32px;
+}
+.mac_program h2{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    color:white;
+    line-height: 120%;
+    text-align: center;
+    margin-top: 32px;
+    letter-spacing: -0.02em;
+
+}
+
+.mac_program h3{
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 120%;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+
+}
+
+.mac_program p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.IAN_hoodies{
+    background: #5A86C938;
+
+}
+
+.IAN_hoodies p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 170%;
+    margin-top: 16px;
+}
+
+.IAN_hoodies a{
+    text-decoration-line: underline;
+    color: #2A42F4;
+}
+
+@media only screen and (max-width: 980px){
+
+    .navbar-brand img
+{
+    
+    padding-right: 0px;
+   
+}
+
+#hero_message
+{
+    top: 0px !important;
+}
+
+.image-container
+{
+    margin-top: 20px;
+}
+
+.mac_program{
+   
+    height: 500px;
+    
+}
+
+.IAN_hoodies img{
+    width: 100%;
+}
+
+}
