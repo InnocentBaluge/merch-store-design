@@ -109,13 +109,14 @@
 
 .IAN_hoodies{
     background: #5A86C938;
+    height: 760px;
 
 }
 
 .IAN_hoodies p{
     font-family: 'Lato';
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 20px;
     line-height: 170%;
     margin-top: 16px;
@@ -126,6 +127,92 @@
     color: #2A42F4;
 }
 
+.card{
+    background-color: none !important ;
+    margin-top: 10px !important;
+    
+}
+
+.IAN_hoodies .card-title{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+    color: #000000;
+}
+
+.IAN_hoodies .card-text{
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #858585;
+}
+
+#price{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    text-align: center;
+    line-height: 130%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #5A86C9;
+}
+
+#view_all{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px; 
+    margin-top: 10px;
+}
+
+.partners
+{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 120%;
+    margin-top: 20px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #5A86C9
+}
+section#seamless_hoodies{
+    height: 800px !important;
+}
+section#Jenga_hoodies{
+    height: 800px !important;
+}
+
+
+#socials
+{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+}
+.col-md-3
+{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+}
 @media only screen and (max-width: 980px){
 
     .navbar-brand img
@@ -151,8 +238,41 @@
     
 }
 
+.IAN_hoodies .col-md-4{
+    align-items: center !important;
+}
+
 .IAN_hoodies img{
     width: 100%;
 }
+
+.IAN_hoodies{
+    
+    height: 1880px;
+
+}
+section#seamless_hoodies{
+    height: 1970px !important;
+}
+section#Jenga_hoodies{
+    height: 1880px !important;
+}
+.footer img
+    {
+      margin-bottom: 30px;
+      margin-left: 60px;
+      margin-right: 40px;
+    }  
+    .footer .row .col-md-3  p
+    {
+        font-size: 18px;
+        text-align: justify;
+        margin-left: 60px;
+        margin-right: 40px;
+    }
+    .footer .col-md-3{
+      margin-bottom: 20px;
+
+    }
 
 }
